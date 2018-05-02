@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+
+	<table-filter match-name="event" match-catalog="dblaros"></table-filter>
+	<table-filter match-name="event_detail" match-catalog="dblaros"></table-filter>
+	<table-filter match-name="event_information"
+		match-catalog="dblaros">
+	</table-filter>
+	<table-filter match-name="event_topic" match-catalog="dblaros"></table-filter>
+	<table-filter match-name="event_type" match-catalog="dblaros"></table-filter>
+	<table-filter match-name="module" match-catalog="dblaros"></table-filter>
+	<table-filter match-name="permission" match-catalog="dblaros"></table-filter>
+	<table-filter match-name="role" match-catalog="dblaros"></table-filter>
+	<table-filter match-name="user" match-catalog="dblaros"></table-filter>
+	<table-filter match-name="user_role" match-catalog="dblaros"></table-filter>
+</hibernate-reverse-engineering>
