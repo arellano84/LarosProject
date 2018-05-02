@@ -1,0 +1,6 @@
+{
+    "data": [
+        {"roleId": "2", "roleName": "Product Owner", "code": "01"},
+        {"roleId": "1", "roleName": "Developers", "code": "02"}
+    ]
+}

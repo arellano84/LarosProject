@@ -1,0 +1,6 @@
+Este proyecto se inicio siguiendo la linea de este ejemplo:
+https://www.youtube.com/watch?v=ibApMXn4bTM
+
+https://github.com/sambaf/restClient
+
+https://github.com/sambaf/crudBackend

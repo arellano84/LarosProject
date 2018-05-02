@@ -1,0 +1,15 @@
+## YAML Template.
+server:
+  port: 8001
+spring: 
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: C:/Users/LuisAR/it/Proyectos/LarosProyect/larosConfigData/
+         
+
+              
+          

@@ -1,0 +1,25 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    {{ title }}
+  </div>
+  <div class="panel-body">
+    <form (ngSubmit)="processForm()">
+      <div class="form-group">
+        <label class="col-md-4">Id Rol</label>
+        <input type="text" class="form-control" name="roleId" [(ngModel)]="role.roleId"/>
+      </div>
+      <div class="form-group">
+        <label class="col-md-4">Nombre Rol</label>
+        <input type="text" class="form-control" name="roleName" [(ngModel)]="role.roleName"/>
+      </div>
+      <div class="form-group">
+        <label class="col-md-4">Codigo Rol</label>
+        <input type="text" class="form-control" name="code" [(ngModel)]="role.code"/>
+      </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Agregar</button>
+        </div>
+    </form>
+  </div>
+</div>
