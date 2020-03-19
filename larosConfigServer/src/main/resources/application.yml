@@ -8,7 +8,7 @@ spring:
     config:
       server:
         native:
-          searchLocations: C:/Users/LuisAR/it/Proyectos/LarosProyect/larosConfigData/
+          searchLocations: C:/Users/LuisAR/it/Proyectos/LarosProject/larosConfigData/
          
 
               
