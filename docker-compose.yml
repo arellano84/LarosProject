@@ -1,0 +1,37 @@
+services:
+  postgres_lp:
+    image: postgres:17.5
+    container_name: postgres_lp
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: larosdb
+    volumes:
+      - postgres-lp-data:/var/lib/postgresql/data
+    ports:
+      - 5434:5432
+    networks:
+      - local-network-lp
+
+  pgadmin_lp:
+    image: dpage/pgadmin4:9.5
+    container_name: pgadmin_lp
+    depends_on:
+      - postgres_lp
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ing.arellano@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - 8085:80
+    volumes:
+      - pgadmin-lp-data:/var/lib/pgadmin
+    networks:
+      - local-network-lp
+
+volumes:
+  postgres-lp-data:
+  pgadmin-lp-data:
+
+networks:
+  local-network-lp:
+    driver: bridge
