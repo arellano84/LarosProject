@@ -1,3 +1,4 @@
+<!--
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
 
@@ -13,6 +14,7 @@
 	<table-filter match-name="module" match-catalog="dblaros"></table-filter>
 	<table-filter match-name="permission" match-catalog="dblaros"></table-filter>
 	<table-filter match-name="role" match-catalog="dblaros"></table-filter>
-	<table-filter match-name="user" match-catalog="dblaros"></table-filter>
+	<table-filter match-name="users" match-catalog="dblaros"></table-filter>
 	<table-filter match-name="user_role" match-catalog="dblaros"></table-filter>
 </hibernate-reverse-engineering>
+-->
