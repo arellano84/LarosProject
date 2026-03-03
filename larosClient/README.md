@@ -1,3 +1,15 @@
+Modificado: 03/03/2026
+
+larosClient:
+- Es un servicio Frontend para consumir APIs (Usuarios y Roles)
+- Levanta correctamente:
+  - http://localhost:4200/
+- Conecta con el servicio Backend
+  - LarosBackend: http://localhost:8080/user/users, http://localhost:8080/role/roles
+
+
+Creado: 2018
+
 # LarosClient
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
