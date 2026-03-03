@@ -19,7 +19,6 @@ import { InputTextModule }  from 'primeng/inputtext';
 import { ButtonModule }  from 'primeng/button';
 import { TableModule }  from 'primeng/table';
 import { DialogModule }  from 'primeng/dialog';
-import { CarListComponent } from './components/catalogs/car-list/car-list.component';
 
 
 @NgModule({
@@ -28,8 +27,7 @@ import { CarListComponent } from './components/catalogs/car-list/car-list.compon
     UserListComponent,
     UserFormComponent,
     RoleListComponent,
-    RoleFormComponent,
-    CarListComponent
+    RoleFormComponent
   ],
   imports: [
     BrowserModule,

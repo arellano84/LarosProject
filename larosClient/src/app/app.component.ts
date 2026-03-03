@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
     <a routerLink="/" routerLinkActive="active">Index</a>
     <a routerLink="/user/list" routerLinkActive="active">Usuario</a>
     <a routerLink="/role/list" routerLinkActive="active">Roles</a>
-    <a routerLink="/car/list" routerLinkActive="active">Cars</a>
   </nav>
   <router-outlet></router-outlet>
   <router-outlet name="popup"></router-outlet>
