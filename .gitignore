@@ -1,38 +1,86 @@
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+# ======================================================
+# OS
+# ======================================================
+.DS_Store
+Thumbs.db
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# ======================================================
+# IDEs / Editors
+# ======================================================
+.idea/
+.vscode/
 *.iml
 *.ipr
-*.db
+*.iws
+*.swp
+*.swo
+
+# ======================================================
+# Logs
+# ======================================================
+logs/
+*.log
+
+# ======================================================
+# ======================= BACKEND ======================
+# ======================================================
+
+# Java / JVM
+*.class
+hs_err_pid*
+
+# Maven
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+.mvn/timing.properties
+
+# Gradle
+**/.gradle/
+**/build/
+
+# Spring Boot
+spring-boot.log
+application-local.yml
+application-local.properties
+bootstrap-local.yml
+
+# Env / Secrets
+.env
+.env.*
+
+# ======================================================
+# ======================= FRONTEND =====================
+# ======================================================
+
+# Node / NPM
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Angular
+**/dist/
+**/.angular/
+**/.angular/cache/
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Environment files
+!.env.example
 
-### VS Code ###
-.vscode/
+# Tests / Coverage
+coverage/
+.nyc_output/
+
+# Cache / Temp
+.cache/
+.tmp/
+
+# ======================================================
+# ======================= DOCKER =======================
+# ======================================================
+#docker-compose.override.yml
