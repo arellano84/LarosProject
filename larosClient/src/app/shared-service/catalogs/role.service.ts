@@ -20,23 +20,6 @@ export class RoleService {
 
   constructor(private _http:Http) { }
 
-      
-  getRolesSmall() {
-      // return this._http.get<any>(this.baseUrl+'/roles')
-      //   .toPromise()
-      //   .then(res => <Role[]> res.data)
-      //   .then(data => data);
-
-
-      /*return this._http.get<Role>(this.baseUrl+'/roles')
-        .subscribe(data => {
-        console.log("User Login: " + data.roleId);
-        console.log("Bio: " + data.roleName);
-        console.log("Company: " + data.code);
-        });*/
-  }
-
-
   getRoles(){
 
     return this._http.get(this.baseUrl+'/roles',this.options)
