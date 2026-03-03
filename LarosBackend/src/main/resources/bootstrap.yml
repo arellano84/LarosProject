@@ -9,7 +9,7 @@ eureka:
 
 spring:
   application:
-    name: larosConfigData
+    name: larosBackend
 
   cloud:
     config:
