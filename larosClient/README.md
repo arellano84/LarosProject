@@ -1,39 +1,57 @@
-Modificado: 03/03/2026
-
-larosClient:
-- Es un servicio Frontend para consumir APIs (Usuarios y Roles)
-- Levanta correctamente:
-  - http://localhost:4200/
-- Conecta con el servicio Backend
-  - LarosBackend: http://localhost:8080/user/users, http://localhost:8080/role/roles
-
-
-Creado: 2018
 
 # LarosClient
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+**Última modificación:** 13/03/2026
 
-## Development server
+## Descripción
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+**LarosClient** es una aplicación **FrontEnd** que permite consumir las APIs del sistema para la gestión de **Usuarios** y **Roles**.
 
-## Code scaffolding
+La aplicación se conecta con el servicio **LarosBackend**, que expone los endpoints necesarios para realizar operaciones CRUD sobre los recursos del sistema.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## Ejecución del servicio
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Una vez iniciado el proyecto, la aplicación FrontEnd se ejecuta en:
 
-## Running unit tests
+http://localhost:4200/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## Integración con Backend
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+El cliente se conecta con el servicio **LarosBackend**, que expone los siguientes endpoints:
 
-## Further help
+```
+http://localhost:8080/user/users
+http://localhost:8080/role/roles
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Para más información sobre el servicio Backend, consulte:
+
+```
+LarosBackend/README.md
+```
+
+---
+
+## Instalación y ejecución
+
+### Instalación de dependencias
+
+```bash
+npm install
+```
+
+### Ejecutar la aplicación
+
+```bash
+npm start
+```
+
+---
+
+## Requisitos
+
+- Node.js 8
