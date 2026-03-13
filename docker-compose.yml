@@ -9,7 +9,7 @@ services:
     volumes:
       - postgres-lp-data:/var/lib/postgresql/data
     ports:
-      - 5434:5432
+      - 5435:5432
     networks:
       - local-network-lp
 
@@ -19,7 +19,7 @@ services:
     depends_on:
       - postgres_lp
     environment:
-      PGADMIN_DEFAULT_EMAIL: ing.arellano@gmail.com
+      PGADMIN_DEFAULT_EMAIL: admin@laros.com
       PGADMIN_DEFAULT_PASSWORD: admin
     ports:
       - 8085:80
